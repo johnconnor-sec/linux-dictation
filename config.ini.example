@@ -1,0 +1,27 @@
+[General]
+activation_hotkey = ctrl+alt+d
+language = en
+# Available models: tiny, tiny.en, base, base.en, small, small.en, medium, medium.en, large-v1, large-v2, large-v3, distil-large-v2, etc.
+model_size = base.en
+# Device: cpu or cuda
+device = cpu
+# Compute type: default, int8, float16, int8_float16 etc. (see faster-whisper docs)
+compute_type = default
+# Silence duration in seconds to automatically stop dictation (0 to disable)
+silence_timeout = 2.0
+# Text insertion method: pynput or ydotool (requires ydotool installed and ydotoold running)
+text_inserter = pynput
+
+[Whisper]
+# VAD filter helps ignore silence/noise (requires Silero VAD model download)
+use_vad_filter = true
+beam_size = 5
+# Set initial prompt to guide the model's style, e.g., for punctuation
+initial_prompt =
+
+[Advanced]
+# Audio device index or name (leave blank for default)
+audio_device =
+sample_rate = 16000
+# Block size for audio processing (samples)
+block_size = 8000 # 0.5 seconds at 16kHz

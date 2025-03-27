@@ -1,0 +1,11 @@
+sounddevice
+numpy
+faster-whisper
+pynput
+keyboard
+pystray
+pillow # Required by pystray for icon image handling
+# Optional: For GPU support with faster-whisper
+# ctranslate2>=3.10.0,<4.0.0
+# nvidia-cublas-cu11 / nvidia-cublas-cu12 (depending on CUDA version)
+# nvidia-cudnn-cu11 / nvidia-cudnn-cu12 (depending on CUDA version)
