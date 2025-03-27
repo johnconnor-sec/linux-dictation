@@ -174,9 +174,9 @@ The first time you run dictation with a specific model size, `faster-whisper` wi
 
 ## Limitations & Future Improvements
 
-[ ] **Wayland Robustness:** Global hotkeys and input injection remain challenging on Wayland. Success depends heavily on the compositor, setup, and permissions.
-[ ] **Error Reporting:** Improve user feedback for errors (e.g., more specific tray notifications).
-[ ] **Audio Device Selection:** Implement a GUI dropdown for audio devices.
-[ ] **Alternative STT Engines:** Add support for Vosk or others.
-[ ] **Packaging:** Create `.deb`, `.rpm`, or AppImage packages for easier distribution.
-[ ] **More Sophisticated VAD:** Implement more advanced silence detection or use STT engine's VAD more effectively to manage continuous dictation segments.
+- [ ] **Wayland Robustness:** Global hotkeys and input injection remain challenging on Wayland. Success depends heavily on the compositor, setup, and permissions.
+- [ ] **Error Reporting:** Improve user feedback for errors (e.g., more specific tray notifications).
+- [ ] **Audio Device Selection:** Implement a GUI dropdown for audio devices.
+- [ ] **Alternative STT Engines:** Add support for Vosk or others.
+- [ ] **Packaging:** Create `.deb`, `.rpm`, or AppImage packages for easier distribution.
+- [ ] **More Sophisticated VAD:** Implement more advanced silence detection or use STT engine's VAD more effectively to manage continuous dictation segments.
