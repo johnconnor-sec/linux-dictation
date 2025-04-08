@@ -2,6 +2,9 @@
 
 A native Linux application for system-wide voice dictation, similar to Windows' `Win+H` or macOS's "Dictation".
 
+> [!Note]
+> This is a work in progress, check back later for updates and bug fixes. 
+
 ## Features
 
 - **System-wide:** Works in (almost) any application.
